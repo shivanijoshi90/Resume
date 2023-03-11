@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img_10"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+
+    <EditText
+        android:id="@+id/uni_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="University name"
+        android:background="@drawable/shap1"
+        android:paddingLeft="15dp"/>
+    <EditText
+        android:id="@+id/degree_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shap1"
+        android:hint="Degree name"
+        android:paddingLeft="15dp"/>
+
+    <EditText
+        android:id="@+id/pass_year"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Passing Year"
+        android:paddingLeft="15dp"
+        android:background="@drawable/shap1"/>
+
+    <EditText
+        android:id="@+id/percent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/shap1"
+        android:hint="Percentage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_marginTop="50dp">
+
+
+    <TextView
+        android:id="@+id/txtNext"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/shape1"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/reset"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Reset"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/shape1"/>
+
+
+</LinearLayout>
+</LinearLayout>

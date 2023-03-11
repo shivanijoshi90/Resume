@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img_10"
+    tools:context=".homeactivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Details"
+        android:paddingLeft="60dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:hint="Name:"
+        android:background="@drawable/shap1"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shap1"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:hint="Address:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/shap1"
+        android:hint="Email:"/>
+    <EditText
+        android:id="@+id/contact_no"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/shap1"
+        android:hint="contact no:"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+
+        <TextView
+        android:id="@+id/reset"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+         android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:text="Reset"
+        android:gravity="center"
+        android:background="@drawable/shape1"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+
+        android:id="@+id/Next"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape1"
+        android:text="Next"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</LinearLayout>
+
