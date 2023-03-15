@@ -15,10 +15,12 @@
         android:layout_height="wrap_content"
         android:text="Work History"
         android:textSize="30dp"
+        android:letterSpacing=".2"
         android:textStyle="bold"
         android:layout_marginBottom="30dp"/>
 
     <EditText
+        android:id="@+id/year"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:paddingLeft="15dp"
@@ -27,6 +29,7 @@
         android:hint="Started Month And Year"/>
 
     <EditText
+        android:id="@+id/job"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="20dp"
@@ -34,6 +37,7 @@
         android:paddingLeft="15dp"
         android:hint="List your job s in order"/>
     <EditText
+        android:id="@+id/location"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="20dp"
@@ -42,6 +46,7 @@
         android:hint="Include name and location of company"/>
 
     <EditText
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="20dp"
@@ -50,6 +55,7 @@
         android:hint="Provide your job title"/>
 
     <EditText
+        android:id="@+id/awards"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="20dp"
@@ -59,6 +65,7 @@
 
 
     <EditText
+        android:id="@+id/responsibilities"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="20dp"

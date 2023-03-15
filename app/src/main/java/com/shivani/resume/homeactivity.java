@@ -2,6 +2,7 @@ package com.shivani.resume;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,12 +15,9 @@ public class homeactivity extends AppCompatActivity {
 
     EditText name,address,contact_no,email;
 
-    String email;
-
-    CheckBox dance,music,traveling,ridding;
-
     Button reset,next;
 
+    @SuppressLint({"WrongViewCast", "MissingInflatedId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,10 +29,6 @@ public class homeactivity extends AppCompatActivity {
         email=findViewById(R.id.email);
         reset=findViewById(R.id.reset);
         next=findViewById(R.id.Next);
-        dance=findViewById(R.id.dance);
-        music=findViewById(R.id.music);
-        traveling=findViewById(R.id.traveling);
-        ridding=findViewById(R.id.ridding);
 
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
